@@ -1,0 +1,27 @@
+.todo{
+    user-select: none;
+    padding: 5px 30%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.todo-done{
+    text-decoration: line-through;
+}
+.todo-process{
+    text-decoration: none;
+}
+
+.todo-title{
+    cursor: pointer;
+}
+
+.todo-remove-button{
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 100%;
+    background-color: #282c34;
+    color: white;
+}
